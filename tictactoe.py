@@ -117,7 +117,7 @@ def check_diagonals():
 def check_if_tie():
     global game_still_going
     if '-' not in board:
-        game_still_going = False
+        game_still_going = True
     return
 
 
